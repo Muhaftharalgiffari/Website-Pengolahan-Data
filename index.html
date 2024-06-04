@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Pengolaan Data Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Aplikasi Pengelolaan Data Buku</h1>
+    <div class="container">
+        <div class="input-group">
+            <input id="titleInput" type="text" placeholder="Judul Buku">
+            <input id="authorInput" type="text" placeholder="Penulis Buku">
+            <input id="yearInput" type="number" placeholder="Tahun Terbit">
+            <button id="addButton">Tambah Buku</button>
+        </div>
+        <h2>Belum selesai dibaca</h2>
+        <div id="incompleteBookList" class="book-list"></div>
+        <h2>Selesai dibaca</h2>
+        <div id="completeBookList" class="book-list"></div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
